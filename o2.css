@@ -1,0 +1,18 @@
+body{
+    background-color: #f6E5DC;
+    font-family:verdana,sans-serif;
+}
+.baner{
+    background-color: #2f180c;
+    text-align: center;
+    color: khaki;
+    height: 60px;
+
+}
+.lewy{
+    width: 60%;
+}
+.prawy{
+    font-size: 150%;
+    padding: 70px;
+}
