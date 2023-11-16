@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sklep dla uczniów</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dzisiejsze promocje naszego sklepu</h1>
+        <img src="promocja.png" alt="promocja">
+    </header>
+
+    <div class="main-content">
+
+        <section class="left-block">
+            <h2>Taniej o 30%</h2>
+            <ol>
+                <li>Gumka do mazania</li>
+                <li>Cienkopis</li>
+                <li>Pisaki 60 szt.</li>
+                <li>Markery 4 szt.</li>
+            </ol>
+        </section>
+
+
+        <section class="middle-block">
+            <h2>Sprawdź cenę</h2>
+            <form action="skrypt2.php" method="post">
+                <label for="products">Wybierz produkt:</label>
+                <select name="products" id="products">
+                    <option value="gumka">Gumka do mazania</option>
+                    <option value="cienkopis">Cienkopis</option>
+                    <option value="pisaki">Pisaki 60 szt.</option>
+                    <option value="markery">Markery 4 szt.</option>
+                </select>
+                <input type="submit" value="SPRAWDŹ">
+            </form>
+            <div class="result"></div> 
+        </section>
+
+  
+        <section class="right-block">
+            <h2>Kontakt</h2>
+            <p>e-mail: <a href="mailto:bok@sklep.pl">bok@sklep.pl</a></p>
+            <img src="promocja.png" alt="kontakt">
+        </section>
+    </div>
+
+
+    <footer>
+        <h4>Autor strony: Rafał Stopka</h4>
+    </footer>
+</body>
+</html>
